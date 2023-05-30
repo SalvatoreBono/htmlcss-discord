@@ -10,17 +10,49 @@ header {
    padding-top: 10px;
 }
 
+nav {
+   display: flex;
+   background-color: rgb(218, 165, 32);
+}
+
 .container {
    max-width: 980px;
    margin: 0 auto;
 }
 
-nav {
-   display: flex;
-   justify-content: space-between;
+.nav-links,
+.nav-logo,
+.nav-login {
+   border: 1px dashed black;
    padding: 5px;
-   background-color: rgb(218, 165, 32);
-   min-height: 25px;
+}
+
+.nav-login,
+.nav-logo {
+   min-width: 150px;
+}
+
+.nav-links {
+   flex-grow: 1;
+}
+
+.nav-links ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+}
+
+li {
+   padding: 0 10px;
+}
+
+li a {
+   text-decoration: none;
+   color: white;
+}
+
+.nav-login{
+   text-align: right;
 }
 
 #bg-main-section {
