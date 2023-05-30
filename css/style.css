@@ -198,12 +198,10 @@ h3 {
    width: 20px;
 }
 .align{
-   vertical-align: top;
+   vertical-align: middle;
 }
 #small{
    width: 20px;
-   position: relative;
-   bottom: 4px;
 }
 .brand{
    width: 20px;
