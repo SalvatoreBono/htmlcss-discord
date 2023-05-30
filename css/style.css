@@ -113,19 +113,40 @@ h1 {
 }
 
 .left-box {
+   width: 60%;
    max-height: 400px;
-   flex-grow: 2;
 }
-#left-box-img{
+
+#left-box-img {
    background-image: url(../img/item1.svg);
 }
 
-.right-box {
-   background-color: rgb(255, 192, 203);
-   min-height: 400px;
-   flex-grow: 1;
+.img {
+   background-size: contain;
+   background-repeat: no-repeat;
 }
 
+.right-box {
+   min-height: 400px;
+   width: 40%;
+}
+
+.right-box h2 {
+   line-height: 35px;
+   padding-bottom: 20px;
+}
+
+.right-box p {
+   line-height: 23px;
+}
+
+#right-box-img {
+   background-image: url(../img/item2.svg);
+}
+
+#last-left-box-img {
+   background-image: url(../img/item3.svg);
+}
 
 #last-box {
    background-color: rgb(34, 139, 34);
