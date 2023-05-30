@@ -4,15 +4,20 @@
    box-sizing: border-box;
 }
 
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
-   background-color: rgb(173, 216, 230);
+   background-color: rgb(37, 94, 233);
    padding-bottom: 10px;
    padding-top: 10px;
+   font-size: 15px;
 }
 
 nav {
    display: flex;
-   background-color: rgb(218, 165, 32);
+   align-items: center;
 }
 
 .container {
@@ -23,13 +28,7 @@ nav {
 .nav-links,
 .nav-logo,
 .nav-login {
-   border: 1px dashed black;
    padding: 5px;
-}
-
-.nav-login,
-.nav-logo {
-   min-width: 150px;
 }
 
 .nav-links {
@@ -43,7 +42,7 @@ nav {
 }
 
 li {
-   padding: 0 10px;
+   padding: 0 15px;
 }
 
 li a {
@@ -51,12 +50,24 @@ li a {
    color: white;
 }
 
-.nav-login{
+.nav-login {
    text-align: right;
 }
 
+.button {
+   background-color: white;
+   border-radius: 25px;
+   padding: 10px;
+   cursor: pointer;
+   font-size: 13px;
+   border: none;
+}
+
 #bg-main-section {
-   background-color: rgb(0, 0, 139);
+   background-image: url(../img/jumbo.png);
+   background-size: cover;
+   height: 665px;
+   background-repeat: no-repeat;
 }
 
 section {
@@ -65,10 +76,35 @@ section {
 }
 
 #main-box {
-   background-color: rgb(238, 130, 238);
+   color: white;
+   text-align: center;
    max-width: 642px;
    min-height: 248px;
    margin: 0 auto;
+   margin-top: 170px;
+}
+
+h1 {
+   font-size: 40px;
+   padding-bottom: 30px;
+}
+
+#main-box p {
+   line-height: 27px;
+   padding-bottom: 10px;
+}
+
+#main-box button {
+   margin-right: 15px;
+}
+
+.white {
+   color: white;
+}
+
+.big {
+   font-size: 17px;
+   padding: 14px;
 }
 
 .flex {
@@ -77,9 +113,11 @@ section {
 }
 
 .left-box {
-   background-color: rgb(30, 144, 255);
    max-height: 400px;
    flex-grow: 2;
+}
+#left-box-img{
+   background-image: url(../img/item1.svg);
 }
 
 .right-box {
@@ -88,9 +126,6 @@ section {
    flex-grow: 1;
 }
 
-.bg-grey {
-   background-color: rgb(211, 211, 211);
-}
 
 #last-box {
    background-color: rgb(34, 139, 34);
@@ -98,8 +133,23 @@ section {
    margin: 0 auto;
 }
 
+.bg-grey {
+   background-color: rgb(211, 211, 211);
+}
+
 .bg-black {
    background-color: rgb(35, 39, 42);
+}
+
+#bg-teal {
+   background-color: rgb(127, 255, 212);
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
+.bg-logo-login {
+   background-color: rgb(255, 182, 193);
+   border: 1px dotted black;
 }
 
 .footer-left-box {
@@ -114,15 +164,4 @@ section {
    min-height: 330px;
    flex-grow: 1;
    border: 1px dotted white;
-}
-
-#bg-teal {
-   background-color: rgb(127, 255, 212);
-   padding-bottom: 10px;
-   padding-top: 10px;
-}
-
-.bg-logo-login {
-   background-color: rgb(255, 182, 193);
-   border: 1px dotted black;
 }
