@@ -149,9 +149,10 @@ h1 {
 }
 
 #last-box {
-   background-color: rgb(34, 139, 34);
+   background-image: url(../img/item4-big.svg);
    min-height: 880px;
    margin: 0 auto;
+   text-align: center;
 }
 
 .bg-grey {
