@@ -163,6 +163,7 @@ p {
 }
 
 h3 {
+   margin-top: 30px;
    margin-bottom: 30px;
 }
 
@@ -194,7 +195,13 @@ h3 {
 .no-padding-bottom{
    padding-bottom: 0px;
 }
-
+.stars{
+   line-height: 60px;
+   background-image: url(../img/stars.svg);
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: auto 33.9px;
+}
 .bg-black {
    background-color: rgb(35, 39, 42);
 }
