@@ -183,6 +183,7 @@ h3 {
 }
 .wave{
    background-color: white;
+   margin-bottom: -5px;
 }
 .wave-bottom{
    rotate: 180deg;
